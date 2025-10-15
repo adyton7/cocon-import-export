@@ -49,7 +49,7 @@ body {
 }
 
 .logo img {
-    height: 50px;
+    height: 70px;
     width: auto;
 }
 
@@ -169,7 +169,7 @@ img {
     position: relative;
 }
 
-.home-section-content {   
+.home-section-content1 {   
     position: absolute;
     top: 0;
     left: 0;
@@ -177,9 +177,10 @@ img {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 7%;
+    align-items: center;
+    margin-top: 0%;
     gap: 10px;
+    font-family: 'Passion One', sans-serif; 
 }
 
 .home-section-content {   
@@ -207,20 +208,30 @@ img {
     margin-left: 6%;
 }
 
+.home-section3-text {
+    color: rgb(0, 0, 0);
+    margin-top: 0.5%;
+    text-align: center;
+}
 
 .home-section-title {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
 .home-section-paragraph {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: normal;
 }
 
 .pearly_highlighted {
     color: #f1c62a;
-} 
+    text-shadow: #000000 0px 0px 5px;
+}
+
+.pearly_red_highlighted {
+    color: #74070a;
+}
 
 
 .see-tires-btn {
@@ -252,10 +263,6 @@ img {
     .company-name {
         order: -1; /* Puts company name on top on small screens */
         margin-bottom: 10px;
-    }
-
-    .navigation {
-        /* No specific styles needed here for now */
     }
 
     .navigation ul {
